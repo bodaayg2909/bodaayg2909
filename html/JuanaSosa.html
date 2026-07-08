@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Boda AyG</title>
+        <link rel="stylesheet" href="../styles.css"/>
+    </head>
+    <body>
+    <!-- ===============================
+INTRO SOBRE PREMIUM
+PONER AL INICIO DEL BODY
+=============================== -->
+
+<div id="intro">
+
+    <div class="brillos"></div>
+
+    <div class="sobre" onclick="abrirSobre()">
+
+        <div class="tapa">
+         <div class="sello">
+        <img src="../img/sello2.png" alt="Sello">
+         </div>
+      </div>
+
+        <div class="carta">
+            <h2>Guadalupe y Agripino</h2>
+            <p>29 · Agosto · 2026</p>
+            <span>Toca para abrir</span>
+        </div>
+
+        <div class="base"></div>
+
+    </div>
+
+</div>
+<div id="navbar">
+  <a href="#">Juana Sosa</a>
+</div>
+<audio id="musica" preload="auto">
+   <source src="../musica/brillas.mp3" type="audio/mpeg">
+</audio>
+
+
+   <div class="petalos "></div>
+
+   <div class="container">
+    <h1>¡Nos Casamos!</h1>
+    <h2>Guadalupe</h2>
+    <h2>y</h2>
+    <h2>Agripino</h2>
+    <main>
+        <section class="section p">
+    <h5>Queremos compartir contigo este dia tan especial.</h5>
+        </section>
+        <section>
+            <p class="p">Guarda esta fecha 29/08/2026</p>
+<a 
+href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Boda+de+Guadalupe+y+Agripino&dates=20260829T150000/20260829T240000&details=Nos+encantaría+compartir+este+día+contigo&location=Puebla,+México"
+target="_blank"
+class="btn-calendar">
+
+Guardar la fecha
+
+</a>
+
+<div id="mensajeCalendario">
+ Preparando tu calendario...
+</div>
+        </section>
+            <section class="contador">
+   <h3>Solo faltan</h3>
+
+   <div class="count-box">
+
+      <div class="box">
+         <span id="dias">0</span>
+         <small>Días</small>
+      </div>
+
+      <div class="box">
+         <span id="horas">0</span>
+         <small>Horas</small>
+      </div>
+
+      <div class="box">
+         <span id="minutos">0</span>
+         <small>Min</small>
+      </div>
+
+      <div class="box">
+         <span id="segundos">0</span>
+         <small>Seg</small>
+      </div>
+
+   </div>
+</section>
+   <section  class="hora">
+       <h3>Ceremonia Religiosa </h3>
+       <p class="p">4 p.m Capilla de San Miguel Arcangel</p>
+       </section>
+        <section class="">
+        <a href="https://maps.app.goo.gl/GniTvWdPP21Cy6Cr6?g_st=aw" class="btn-ubicacion">
+            Ver ubicación
+        </a>
+         <a href="https://maps.app.goo.gl/GniTvWdPP21Cy6Cr6?g_st=aw"><img class="iconos" src="../iconos/icon.png"></a>
+         </section>
+    <div class="evento-container">
+
+  <div class="columnas">
+
+    <div class="coli">
+      <h3>Ceremonia Civil</h3>
+      <p>5 p.m</p>
+    </div>
+
+    <div class="coli">
+      <h3>Recepción</h3>
+      <p>5:40 p.m</p>
+    </div>
+
+  </div>
+<p class="p">Salón Jardín Hacienda Los Reyes
+
+Annie J. Cannon 48, San Miguel, Sta María
+Tonanzintla, 72840 San Andrés Cholula, Pue.</p>
+  <a href="https://maps.app.goo.gl/swyzjiarJ2aC3ShY7?g_st=aw" class="btn-ubicacion">
+     Ver ubicación
+  </a>
+   
+
+</div>
+
+         <a href="https://maps.app.goo.gl/swyzjiarJ2aC3ShY7?g_st=aw"><img class="iconos" src="../iconos/mapa1.png"></a>
+      <section>
+       <p>Tu presencia es el mejor regalo, que puedes darnos, 
+       sin embargo, si gustas compartir con nosotros algo más, agradecemos que sea en efectivo.</p>
+      
+       </section>
+   
+<section class="dresscode">
+  <h3 onclick="abrirColores()">Sugerencia de colores</h3>
+</section>
+
+
+  <div class="colores">
+    <span class="color vino"></span>
+    <span class="color beige"></span>
+    <span class="color crema"></span>
+    <span class="color rojo1"></span>
+    <span class="color rojo2"></span>
+    <span class="color rojo3"></span>
+    <span class="color rojo4"></span>
+    <span class="color rojo5"></span>
+    <span class="color rojo6"></span>
+    <span class="color rojo7"></span>
+    <span class="color rojo8"></span>
+    <span class="color rojo9"></span>
+    <span class="color rojo10"></span>
+    <span class="color rojo11"></span>
+    <span class="color rojo12"></span>
+    <span class="color rojo13"></span>
+    <span class="color rojo14"></span>
+    <span class="color rojo15"></span>
+    <span class="color rojo16"></span>
+    <span class="color rojo17"></span>
+    <span class="color rojo18"></span>
+    <span class="color rojo19"></span>
+  </div>
+   <section>
+   
+   <div class="pase-box">
+   <h3 id="nombreInvitado">Juana Sosa </h3>
+   <p class="texto-pase">Hemos reservado para ti</p>
+   <div class="numero-pases">
+      <span id="cantidadPases">2</span>
+   </div>
+   <p class="texto-pase">pases</p>
+   
+</div>
+       </section>
+   <!-- BOTÓN CONFIRMAR ASISTENCIA WHATSAPP -->
+   <section>
+   <p class="p"></p>
+<a 
+href="https://wa.me/522223652153?text=Hola%20Guadalupe%20y%20Agripino%20Confirmo%20mí%20asistencia%20a%20su%20boda%20del%2029/08/2026.%20Soy%20Juana%20Sosa"
+target="_blank"
+class="btn-whatsapp"
+>
+ Confirmar Asistencia
+</a>
+       </section>
+    </main>
+    </div> 
+    <div id="toast" class="toast"></div>
+<script>
+document.body.style.overflow = "hidden";
+    document.body.style.overflow = "auto";
+/* =========================
+   CUENTA REGRESIVA
+========================= */
+const fechaBoda = new Date("2026-08-29T16:00:00").getTime();
+
+setInterval(() => {
+   const hoy = new Date().getTime();
+   const distancia = fechaBoda - hoy;
+
+   const dias = Math.floor(distancia / (1000*60*60*24));
+   const horas = Math.floor((distancia % (1000*60*60*24)) / (1000*60*60));
+   const minutos = Math.floor((distancia % (1000*60*60)) / (1000*60));
+   const segundos = Math.floor((distancia % (1000*60)) / 1000);
+
+   document.getElementById("dias").textContent = dias;
+   document.getElementById("horas").textContent = horas;
+   document.getElementById("minutos").textContent = minutos;
+   document.getElementById("segundos").textContent = segundos;
+
+}, 1000);
+
+
+/* =========================
+   PÉTALOS SOLO UNA VEZ
+========================= */
+function lanzarPetalos(){
+
+   const contenedor = document.querySelector(".petalos");
+
+   if(!contenedor) return;
+
+   for(let i=0; i<25; i++){
+
+      let petalo = document.createElement("div");
+      petalo.classList.add("petalo");
+
+       petalo.style.transform = `rotate(${Math.random()*360}deg)`;
+      petalo.style.left = Math.random()*100 + "vw";
+      petalo.style.animationDuration = (4 + Math.random()*3) + "s";
+      petalo.style.animationDelay = Math.random()*2 + "s";
+
+      petalo.innerHTML = '<img src="../img/petalos1.png">';
+
+      contenedor.appendChild(petalo);
+
+      setTimeout(()=>{
+         petalo.remove();
+      },7000);
+   }
+}
+
+
+/* =========================
+   ABRIR SOBRE
+========================= */
+function abrirSobre(){
+
+   sessionStorage.setItem("sobreAbierto", "true");
+
+   const sobre = document.querySelector(".sobre");
+   const intro = document.getElementById("intro");
+   const musica = document.getElementById("musica");
+
+   if(sobre) sobre.classList.add("abrir");
+
+   if(musica && musica.paused){
+      musica.play().catch(()=>{});
+   }
+
+   setTimeout(()=>{
+      if(intro){
+         intro.style.opacity = "0";
+         intro.style.transition = "1.2s";
+
+         setTimeout(()=>{
+            intro.style.display = "none";
+            lanzarPetalos();
+         },1200);
+      }
+   },2200);
+}
+
+
+/* =========================
+   DATOS PERSONALIZADOS URL
+========================= */
+const params = new URLSearchParams(window.location.search);
+
+const nombre = params.get("nombre") || "Juana Sosa";
+const pases = params.get("pases") || "2";
+
+document.getElementById("nombreInvitado").textContent = nombre;
+document.getElementById("cantidadPases").textContent = pases;
+
+
+/* =========================
+   NAVBAR
+========================= */
+window.addEventListener("scroll", function(){
+
+   let navbar = document.getElementById("navbar");
+
+   if(window.scrollY > 50){
+      navbar.classList.add("scrolled");
+   }else{
+      navbar.classList.remove("scrolled");
+   }
+
+});
+
+    /* =========================
+   calendario
+========================= */
+document.addEventListener("DOMContentLoaded", () => {
+
+   const btnCalendar = document.querySelector(".btn-calendar");
+   const toast = document.getElementById("toast");
+
+   function mostrarToast(texto, duracion = 3000){
+      toast.textContent = texto;
+      toast.classList.add("show");
+
+      setTimeout(()=>{
+         toast.classList.remove("show");
+      }, duracion);
+   }
+
+   if(btnCalendar){
+      btnCalendar.addEventListener("click", () => {
+
+         // primer mensaje corto
+         mostrarToast("✨ Abriendo tu calendario...", 2000);
+
+         // segundo mensaje más largo
+         setTimeout(()=>{
+            mostrarToast("✔️ Evento listo", 3500);
+         }, 2000);
+
+      });
+   }
+
+});
+    
+    /* =========================
+   entradas
+========================= */
+    const secciones = document.querySelectorAll("section");
+
+const observer = new IntersectionObserver((entries) => {
+   entries.forEach(entry => {
+      if(entry.isIntersecting){
+         entry.target.classList.add("visible");
+      }
+   });
+}, { threshold: 0.2 });
+
+secciones.forEach(sec => observer.observe(sec));
+    /* =========================
+   calendario
+========================= */
+window.addEventListener("pageshow", function (event) {
+
+   // 👇 SOLO ejecutar si vienes de atrás (Maps, etc.)
+   if (event.persisted || performance.getEntriesByType("navigation")[0]?.type === "back_forward") {
+
+      // 💌 sobre
+      if(sessionStorage.getItem("sobreAbierto") === "true"){
+         const intro = document.getElementById("intro");
+
+         if(intro){
+            intro.style.display = "none";
+            lanzarPetalos();
+         }
+      }
+
+      // 🎵 música
+      const musica = document.getElementById("musica");
+      const tiempo = sessionStorage.getItem("musicaTiempo");
+
+      if(musica && tiempo){
+         musica.currentTime = parseFloat(tiempo);
+
+         musica.play().catch(()=>{
+            document.addEventListener("click", () => {
+               musica.play().catch(()=>{});
+            }, { once: true });
+         });
+      }
+
+   }
+
+});
+    
+
+
+    const musica = document.getElementById("musica");
+
+if(musica){
+   musica.addEventListener("timeupdate", () => {
+      sessionStorage.setItem("musicaTiempo", musica.currentTime);
+   });
+}
+</script>
+   
+    </body>
+</html>
